@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/0d/97/dd/0d97dd9a8623392df634ebb4066654e0.gif");
+    background-size: cover;
+   
+}
+@keyframes float {
+    from{background-position: 0 0 ;}
+    to{background-position: 100% 100%;}
+}
+section{
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.077);
+    width: 500px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+header img{
+    width: 140px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    
+}
+header h3{
+    color: #000000;
+    font-size: 1.35rem;
+    
+}
