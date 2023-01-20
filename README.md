@@ -2,7 +2,7 @@
 # SimpleCard
 Simple card
 
-## Card *(Pretty simple, not much information)*
+### Card *(Pretty simple, not much information)*
 card with customizable contents
 
 * You can change the icon, font, cursor, color table and background. 
